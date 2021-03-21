@@ -8,6 +8,8 @@
 
 # I'm using mongoDb so you need to install it first 
 
+**All you have to do just download mongo files and then connect to database folder exist in the repository**
+
 **Database collections**
 
 **Books , each book has the following properties :-**
