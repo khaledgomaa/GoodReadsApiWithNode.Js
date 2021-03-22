@@ -8,7 +8,9 @@
 
 # I'm using mongoDb so you need to install it first 
 
-**All you have to do just download mongo files then connect to database folder exist in the repository**
+**All you have to do just download mongo files then connect to "database" folder exist in the repository**
+
+**To install all required packages just write this command npm install**
 
 **Database collections**
 
@@ -30,7 +32,7 @@
     
  **Application contains two types of user : Admin , User**
  
- **Admin can manage books and acutally not all crud operation covered just adding**
+ **Admin can manage books with all crud operations**
  
  **Used jwt for authorization **
  
@@ -40,7 +42,7 @@
  
  **User Apis**
  
- # **Register**
+ # **Register**  -Post method
  
  http://localhost:6060/api/user/register
  
@@ -53,7 +55,7 @@
     "role":""
 }
 
-# **Login**
+# **Login**  -Post method
 
 http://localhost:6060/api/user/login
 
@@ -66,11 +68,11 @@ body :-
     "password":""
 }
 
-# Logout
+# Logout  -Post method
 
 http://localhost:6060/api/user/logout
 
-# AddBookTOFav
+# AddBookTOFav  -Post method
 
 http://localhost:6060/api/user/addBookToFav
 
@@ -82,7 +84,7 @@ body :-
 
 # Rate book in your fav
 
-http://localhost:6060/api/user/rateBookInFav
+http://localhost:6060/api/user/rateBookInFav -Post method
 
 body:- 
 
@@ -95,12 +97,12 @@ body:-
 
 # Get Books 
 
-http://localhost:6060/api/book/
+http://localhost:6060/api/book/  -Get method
 
 
 # Add new book
 
-http://localhost:6060/api/book/add
+http://localhost:6060/api/book/add   -Post method
 
 body :- 
 
@@ -111,3 +113,25 @@ body :-
     "description":""
 }
  
+# edit book
+
+http://localhost:6060/api/book/edit   -Put method
+
+body :- 
+
+{
+    "id": "",
+    "title":"",
+    "author":"",
+    "description":""
+}
+
+# remove book
+
+http://localhost:6060/api/book/delete  -Delete method
+
+body :- 
+
+{
+    "bookId":""
+}
