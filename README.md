@@ -120,10 +120,10 @@ http://localhost:6060/api/book/edit   -Put method
 body :- 
 
 {
-    "id": "6053a0c712518ca738395506",
-    "title":"c#",
-    "author":"mohamed",
-    "description":"A wonderfull book for c#"
+    "id": "",
+    "title":"",
+    "author":"",
+    "description":""
 }
 
 # remove book
@@ -133,5 +133,5 @@ http://localhost:6060/api/book/delete  -Delete method
 body :- 
 
 {
-    "bookId":"6053a0c712518ca738395506"
+    "bookId":""
 }
