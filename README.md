@@ -10,6 +10,8 @@
 
 **All you have to do just download mongo files then connect to database folder exist in the repository**
 
+**To install all required package just write this command npm install**
+
 **Database collections**
 
 **Books , each book has the following properties :-**
