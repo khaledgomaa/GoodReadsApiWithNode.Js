@@ -12,13 +12,14 @@ const authenticateJWT = (req, res, next) => {
 
     jwt.verify(token, accessTokenSecret, (err, user) => {
       if (err) {
+        res.statusCode = 401;
         return next(new CustomError(401, "Unaothorized"));
       }
-
       req.user = user;
       next();
     });
   } else {
+    res.statusCode = 401;
     return next(new CustomError(401, "Unaothorized"));
   }
 };
