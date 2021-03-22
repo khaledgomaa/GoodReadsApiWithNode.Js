@@ -1,6 +1,6 @@
 # GoodReadsApiWithNode.Js
 
-**It's a simple goodreads api apps with the first try using node.js**
+**It's a simple goodreads api app with the first try using node.js**
 
 **How to test this api**
 
