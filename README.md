@@ -10,6 +10,8 @@
 
 **All you have to do just download mongo files then connect to "database" folder exist in the repository**
 
+**After downloading mongo files go to bin folder and run the following command mongod.exe --dbpath "path of DataBase folder in the project"**
+
 **To install all required packages just write this command npm install**
 
 **Database collections**
@@ -34,7 +36,7 @@
  
  **Admin can manage books with all crud operations**
  
- **Used jwt for authorization **
+ **Used jwt for authorization**
  
  **Used express to handle http requests**
  
